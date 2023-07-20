@@ -1,3 +1,5 @@
+@import './variables/_tipografia';
+
 * {
     font-family: "oakes light";
     padding: 0px;
@@ -190,25 +192,25 @@
     padding: 40px;
 }
 
-@font-face {
-    font-family: "oakes light";
-    src: url(../recursos/tipografia/Oakes\ Grotesk\ Light.ttf);
-}
+// @font-face {
+//     font-family: "oakes light";
+//     src: url(../recursos/tipografia/Oakes\ Grotesk\ Light.ttf);
+// }
 
-@font-face {
-    font-family: "oakes bold";
-    src: url(../recursos/tipografia/Oakes\ Grotesk\ Bold.ttf);
-}
+// @font-face {
+//     font-family: "oakes bold";
+//     src: url(../recursos/tipografia/Oakes\ Grotesk\ Bold.ttf);
+// }
 
-@font-face {
-    font-family: "oakes semibold";
-    src: url(../recursos/tipografia/Oakes\ Grotesk\ SemiBold.ttf);
-}
+// @font-face {
+//     font-family: "oakes semibold";
+//     src: url(../recursos/tipografia/Oakes\ Grotesk\ SemiBold.ttf);
+// }
 
-@font-face {
-    font-family: "Recoleta bold";
-    src: url(../recursos/tipografia/Recoleta-Bold.ttf);
-}
+// @font-face {
+//     font-family: "Recoleta bold";
+//     src: url(../recursos/tipografia/Recoleta-Bold.ttf);
+// }
 
 .main__sectioncolor {
     position: relative;
