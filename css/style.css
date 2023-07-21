@@ -1,22 +1,22 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'oakes light';
-  src: url("/recursos/tipografia/Oakes Grotesk Light.ttf") format("truetype"); }
+  src: url("../recursos/tipografia/Oakes Grotesk Light.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'oakes bold';
-  src: url("/recursos/tipografia/Oakes Grotesk Bold.ttf") format("truetype"); }
+  src: url("../recursos/tipografia/Oakes Grotesk Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'oakes semibold';
-  src: url("/recursos/tipografia/Oakes Grotesk SemiBold.ttf") format("truetype"); }
+  src: url("../recursos/tipografia/Oakes Grotesk SemiBold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Recoleta bold';
-  src: url("/recursos/tipografia/Recoleta-Bold.ttf") format("truetype"); }
+  src: url("../recursos/tipografia/Recoleta-Bold.ttf") format("truetype"); }
 
 * {
-  font-family: "oakes light";
+  font-family: 'oakes light';
   padding: 0px;
   margin: 0px; }
 
@@ -541,6 +541,29 @@ textarea::placeholder {
   text-align: center; }
 
 /* Nosotros */
+.main__nosotros {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #F4FAD3; }
+
+.main__nosotros .main__nosotros-titulo h1 {
+  font-size: 40px;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 17px;
+  text-align: center;
+  width: 500px;
+  height: 60px;
+  justify-content: center;
+  color: #FF80BE;
+  background-color: #231F3A;
+  border-radius: 100px;
+  align-items: center; }
+
 /* Contacto */
 .formulario {
   background-color: #FBF6F0; }
