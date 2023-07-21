@@ -531,7 +531,8 @@
     flex-direction: column;
     z-index: 2;
     width: 90%;
-    p{
+
+    p {
         color: white;
         text-align: center;
         background-color: #B1A5F1;
@@ -565,14 +566,15 @@
     flex-direction: column;
     z-index: 2;
     width: 90%;
-    p{
+
+    p {
         color: white;
         text-align: center;
         background-color: #FF80BE;
         border-radius: 10px;
         margin: 5px;
         padding: 7px;
-        }
+    }
 }
 
 .main__forma-emily {
@@ -599,14 +601,15 @@
     flex-direction: column;
     z-index: 2;
     width: 90%;
-    p{
+
+    p {
         color: white;
         text-align: center;
-       background-color: #8bdc8a;
+        background-color: #8bdc8a;
         border-radius: 10px;
         margin: 5px;
         padding: 7px;
-        }
+    }
 }
 
 .formulario2 {
@@ -700,17 +703,28 @@ textarea::placeholder {
 }
 
 /* Contacto */
-.formulario {
-    background-color: #FBF6F0;
-}
+.main__contacto {
+    background-color: #F4FAD3;
 
-.formulario input {
-    font-family: 'Oakes light';
-    border-color: #FF80BE;
-    background-color: transparent;
-    text-transform: none;
-    font-size: 13px;
-    text-align: justify;
+    .main__contacto-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-left: 60px;
+        margin-right: 40px;
+
+        h1 {
+            margin-top: 30px;
+            color: #FF80BE;
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            text-align: left;
+        }
+    }
 }
 
 
@@ -1135,7 +1149,8 @@ textarea::placeholder {
         display: flex;
         flex-direction: column;
         z-index: 2;
-        p{
+
+        p {
             padding: 5px;
         }
     }
@@ -1161,7 +1176,8 @@ textarea::placeholder {
         display: flex;
         flex-direction: column;
         z-index: 2;
-        p{
+
+        p {
             padding: 5px;
         }
     }
@@ -1187,7 +1203,8 @@ textarea::placeholder {
         display: flex;
         flex-direction: column;
         z-index: 2;
-        p{
+
+        p {
             padding: 5px;
         }
     }
@@ -1221,6 +1238,21 @@ textarea::placeholder {
             margin-left: 15px;
             margin-right: 15px;
             font-size: 15px;
+        }
+    }
+
+    // contacto
+    .main__contacto {
+        background-color: #F4FAD3;
+
+        .main__contacto-texto {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 15px;
+            }
         }
     }
 }
