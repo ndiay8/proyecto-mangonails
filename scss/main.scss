@@ -1095,8 +1095,54 @@ textarea::placeholder {
         font-size: 0.7rem;
     }
 }
-// @media (min-width: 1920px) {
-//     .navbar-nav a {
-//        order: inherit;
-//     }
-// }
+ @media (min-width: 1920px) {
+    .main .main__imghero {
+        /* height: 622px; */
+        /* margin-top: 100px; */
+        width: 100%;
+    }
+    
+    .main .main__retrato {
+        margin: 7%;
+        height: 550px;
+        margin-left: 20px;
+        /* max-width: 100% */
+    }
+    
+    .main p {
+        width: 400px;
+        font-family: "oakes light";
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .main__presentacion0 {
+        font-family: "Recoleta bold";
+        color: #FF80BE;
+        font-size: 4rem;
+    }
+    
+    .main__presentacion1 {
+        font-family: "Recoleta bold";
+        color: #231F3A;
+        font-size: 4rem;
+    }
+    
+    .main__hola {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .main__hola2 {
+        display: flex;
+        align-items: center;
+        margin-left: 144px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    
+ }
