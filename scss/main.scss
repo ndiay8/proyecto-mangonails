@@ -638,11 +638,12 @@ textarea::placeholder {
     align-items: center;
     background-color: #F4FAD3;
 }
+
 .main__nosotros .main__nosotros-titulo h1 {
     font-size: 40px;
     display: flex;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-right: 17px;
     text-align: center;
     width: 500px;
@@ -652,6 +653,23 @@ textarea::placeholder {
     background-color: #231F3A;
     border-radius: 100px;
     align-items: center;
+}
+
+.main__nosotros-historia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+        width: 50%;
+    }
+
+    p {
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 10px;
+        font-size: 1.7rem;
+    }
 }
 
 /* Contacto */
@@ -666,6 +684,129 @@ textarea::placeholder {
     text-transform: none;
     font-size: 13px;
     text-align: justify;
+}
+
+
+@media (max-width: 1345px) {
+
+    /* index */
+    .main__hola2 {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .main__hola {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    /* .main .main__retrato {
+    margin: 7%;
+    height: 430px;
+   
+} */
+    .footer {
+        background-color: #B1A5F1;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer .footer__logo2 {
+        height: 90px;
+    }
+
+    .footer__logo {
+        margin: 0.5%;
+    }
+
+    .footer.footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .footer ul {
+        list-style: none;
+        margin: 0px;
+    }
+
+    .footer__footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    ol,
+    ul {
+        padding-left: 0px !important;
+    }
+
+    .footer__final .footer__finalmediosdepago {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__mediosdepago1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .footer__footer .footer__siguenos h5 {
+        font-size: 1rem;
+    }
+
+    .footer__finalmediosdepago p {
+        font-size: 0.7rem;
+    }
+
+    .footer__derechos small {
+        font-size: 0.7rem;
+    }
+
+    // nosotros
+
+    .main__nosotros-historia {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+            width: 50%;
+        }
+
+        p {
+            text-align: left;
+            margin-left: 15px;
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -1014,107 +1155,36 @@ textarea::placeholder {
         flex-direction: column;
         z-index: 2;
     }
-}
 
-
-@media (max-width: 1345px) {
-
-    /* index */
-    .main__hola2 {
+    .main__nosotros .main__nosotros-titulo h1 {
+        font-size: 2rem;
         display: flex;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+        text-align: center;
+        width: 250px;
+        justify-content: center;
+        background-color: #231F3A;
+        border-radius: 100px;
         align-items: center;
-        margin-left: 0px;
-        flex-wrap: nowrap;
-        flex-direction: column;
     }
 
-    .main__hola {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    /* .main .main__retrato {
-    margin: 7%;
-    height: 430px;
-   
-} */
-    .footer {
-        background-color: #B1A5F1;
-        color: white;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .footer .footer__logo2 {
-        height: 90px;
-    }
-
-    .footer__logo {
-        margin: 0.5%;
-    }
-
-    .footer.footer {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-    }
-
-    .footer__nav {
+    .main__nosotros-historia {
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0px;
-    }
 
-    .footer ul {
-        list-style: none;
-        margin: 0px;
-    }
+        img {
+            width: 60%;
+        }
 
-    .footer__footer {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-    }
-
-    ol,
-    ul {
-        padding-left: 0px !important;
-    }
-
-    .footer__final .footer__finalmediosdepago {
-        margin: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .footer__mediosdepago1 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .footer__footer .footer__siguenos h5 {
-        font-size: 1rem;
-    }
-
-    .footer__finalmediosdepago p {
-        font-size: 0.7rem;
-    }
-
-    .footer__derechos small {
-        font-size: 0.7rem;
+        p {
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            font-size: 15px;
+        }
     }
 }
