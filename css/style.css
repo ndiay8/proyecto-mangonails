@@ -75,6 +75,26 @@
   display: none;
   height: 70px; }
 
+@keyframes vibrar {
+  0% {
+    transform: translateX(0); }
+  20% {
+    transform: translateX(-5px) rotateZ(-5deg); }
+  40% {
+    transform: translateX(5px) rotateZ(5deg); }
+  60% {
+    transform: translateX(-5px) rotateZ(-5deg); }
+  80% {
+    transform: translateX(5px) rotateZ(5deg); }
+  100% {
+    transform: translateX(0); } }
+
+.navbar-brand {
+  transition: transform 0.1s ease; }
+
+.navbar-brand:active {
+  animation: vibrar 0.2s ease; }
+
 .navbar-nav li :hover {
   color: #fde7f6 !important;
   font-family: "oakes bold"; }
@@ -199,6 +219,10 @@
   font-size: 5rem;
   font-family: "Recoleta bold"; }
 
+.main__textocolor:hover {
+  color: #FF80BE;
+  transition: color 1.5s; }
+
 .main_sectiondiseño {
   position: relative;
   display: inline-block; }
@@ -213,6 +237,10 @@
   font-size: 5rem;
   font-family: "Recoleta bold"; }
 
+.main__textodiseño:hover {
+  color: #FF80BE;
+  transition: color 1.5s; }
+
 .main__sectioncreatividad {
   position: relative;
   display: inline-block; }
@@ -226,6 +254,10 @@
   padding: 10px 20px;
   font-size: 4rem;
   font-family: "Recoleta bold"; }
+
+.main__textocreatividad:hover {
+  color: #FF80BE;
+  transition: color 1.5s; }
 
 .main__imagenes3 {
   display: flex;
@@ -251,6 +283,26 @@
 
 .footer__logo2 {
   grid-area: footer__logo2; }
+
+@keyframes vibrar {
+  0% {
+    transform: translateX(0); }
+  20% {
+    transform: translateX(-5px) rotateZ(-5deg); }
+  40% {
+    transform: translateX(5px) rotateZ(5deg); }
+  60% {
+    transform: translateX(-5px) rotateZ(-5deg); }
+  80% {
+    transform: translateX(5px) rotateZ(5deg); }
+  100% {
+    transform: translateX(0); } }
+
+.footer__logo2 {
+  transition: transform 0.1s ease; }
+
+.footer__logo2:active {
+  animation: vibrar 0.2s ease; }
 
 .footer__footer {
   grid-area: footer__footer; }
