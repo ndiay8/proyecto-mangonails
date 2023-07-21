@@ -81,7 +81,7 @@
     transition: transform 0.1s ease;
 }
 .navbar-brand:active{
-    animation: vibrar 0.2s ease;
+    animation: vibrar 1s ease;
 }
 .navbar-nav li :hover {
     color: #fde7f6 !important;
@@ -326,7 +326,7 @@
     transition: transform 0.1s ease;
 }
 .footer__logo2:active{
-    animation: vibrar 0.2s ease;
+    animation: vibrar 1s ease;
 }
 
 .footer__footer {
@@ -736,7 +736,7 @@ textarea::placeholder {
         text-align: left;
         margin-left: 20px;
         margin-right: 10px;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 
