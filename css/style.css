@@ -453,7 +453,15 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  z-index: 2; }
+  z-index: 2;
+  width: 90%; }
+  .main__reseñacatalina p {
+    color: white;
+    text-align: center;
+    background-color: #B1A5F1;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 7px; }
 
 .main__forma-ali {
   position: relative;
@@ -475,7 +483,15 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  z-index: 2; }
+  z-index: 2;
+  width: 90%; }
+  .main__reseñaali p {
+    color: white;
+    text-align: center;
+    background-color: #FF80BE;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 7px; }
 
 .main__forma-emily {
   position: relative;
@@ -497,7 +513,15 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  z-index: 2; }
+  z-index: 2;
+  width: 90%; }
+  .main__reseñaemily p {
+    color: white;
+    text-align: center;
+    background-color: #8bdc8a;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 7px; }
 
 .formulario2 {
   display: flex;
@@ -887,6 +911,8 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     z-index: 2; }
+    .main__reseñacatalina p {
+      padding: 5px; }
   .main__reseñas-formas .main__forma-ali {
     display: flex;
     flex-direction: column;
@@ -906,6 +932,8 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     z-index: 2; }
+    .main__reseñaali p {
+      padding: 5px; }
   .main__reseñas-formas .main__forma-emily {
     display: flex;
     flex-direction: column;
@@ -925,6 +953,8 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     z-index: 2; }
+    .main__reseñaemily p {
+      padding: 5px; }
   .main__nosotros .main__nosotros-titulo h1 {
     font-size: 2rem;
     display: flex;
