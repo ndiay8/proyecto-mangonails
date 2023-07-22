@@ -16,6 +16,9 @@
     flex-direction: column;
     align-items: stretch;
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
 }
 
 .header nav {
@@ -148,6 +151,7 @@
     background-color: #F4FAD3;
     width: 100%;
     flex-wrap: wrap;
+    margin-top: 130px;
 }
 
 .main .main__imghero {
@@ -184,11 +188,11 @@
     100% { transform: translateX(0); }
   }
   .main__presentacion1 {
-    transition: transform 0.1s ease;
+    transition: transform 0.2s ease;
   }
   
   .main__presentacion1:hover {
-    animation: vibrar 0.5s infinite;
+    animation: vibrar 0.9s infinite;
   }
 .main__presentacion1 {
     font-family: "Recoleta bold";
@@ -217,27 +221,6 @@
     background-color: #BCFFBB;
     padding: 40px;
 }
-
-// @font-face {
-//     font-family: "oakes light";
-//     src: url(../recursos/tipografia/Oakes\ Grotesk\ Light.ttf);
-// }
-
-// @font-face {
-//     font-family: "oakes bold";
-//     src: url(../recursos/tipografia/Oakes\ Grotesk\ Bold.ttf);
-// }
-
-// @font-face {
-//     font-family: "oakes semibold";
-//     src: url(../recursos/tipografia/Oakes\ Grotesk\ SemiBold.ttf);
-// }
-
-// @font-face {
-//     font-family: "Recoleta bold";
-//     src: url(../recursos/tipografia/Recoleta-Bold.ttf);
-// }
-
 .main__sectioncolor {
     position: relative;
     display: inline-block;
@@ -467,6 +450,7 @@
     color: #FF80BE;
     display: flex;
     align-items: center;
+    margin-top: 130px;
 }
 
 .main__servicios h1 {
@@ -517,6 +501,7 @@
 .main__reseñas {
     /* margin-top: 100px; */
     background-color: #F4FAD3;
+    margin-top: 130px;
 }
 
 .main__reseñas-titulo {
@@ -731,6 +716,7 @@ textarea::placeholder {
     flex-wrap: wrap;
     align-items: center;
     background-color: #F4FAD3;
+    margin-top: 130px;
 }
 
 .main__nosotros .main__nosotros-titulo h1 {
@@ -765,9 +751,9 @@ textarea::placeholder {
         font-size: 1.5rem;
     }
 }
-
 /* Contacto */
 .main__contacto {
+    margin-top: 130px;
     background-color: #F4FAD3;
 
     .main__contacto-texto {
@@ -932,7 +918,21 @@ textarea::placeholder {
 @media (max-width: 991px) {
 
     /* index */
-
+.main{
+    margin-top: 46px;
+}
+.main__servicios{
+    margin-top: 46px;
+}
+.main__reseñas{
+    margin-top: 46px;
+}
+.main__nosotros{
+    margin-top: 46px;
+}
+.main__contacto{
+    margin-top: 46px;
+}
     .main .main__retrato {
         margin: 3%;
         height: 300px;
