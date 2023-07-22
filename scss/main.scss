@@ -34,10 +34,6 @@
     color: #FBF6F0 !important;
     margin: 10px;
     background-color: #B1A5F1;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end; */
 }
 
 .navbar-collapse ul {
@@ -55,10 +51,6 @@
     justify-content: center;
 }
 
-/* .header figure {
-    display: flex;
-    justify-content: center;
-} */
 .navbar-brand {
     margin-right: 0px !important;
 
@@ -66,7 +58,6 @@
 
 .header img {
     height: 110px;
-    /* margin: 5px; */
 }
 
 .logo-mobile img {
@@ -113,62 +104,6 @@
     font-family: "oakes bold";
 }
 
-/* .header .barra {
-    margin-bottom: 45px;
-
-}
-
-.header nav {
-    background-color: #B1A5F1;
-    height: 100px;
-    width: 100%;
-    box-shadow: 2px 2px 3px rgba(90, 85, 85, 0.5)
-}
-
-.header figure {
-    display: flex;
-    justify-content: center;
-}
-
-.header img {
-    position: relative;
-    height: 110px;
-    margin: 5px;
-}
-
-.header ul {
-    list-style-type: none;
-    text-transform: uppercase;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.header li {
-    display: inline;
-    margin: 10px;
-}
-
-.header a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-family: "oakes light";
-    padding: 5px;
-    display: flex;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #B1A5F1;
-    height: 100px;
-    z-index: 9999
-} */
-
 .main {
     background-color: #F4FAD3;
     width: 100%;
@@ -177,8 +112,6 @@
 }
 
 .main .main__imghero {
-    /* height: 622px; */
-    /* margin-top: 100px; */
     width: 100%;
 }
 
@@ -186,7 +119,7 @@
     margin: 7%;
     height: 550px;
     margin-left: 20px;
-    /* max-width: 100% */
+
 }
 
 .main p {
@@ -349,7 +282,6 @@
         ". . . ."
         ". . . .";
     justify-items: center;
-    /* justify-content: start; */
     align-items: center;
     flex-wrap: wrap;
 }
@@ -422,8 +354,6 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    /* align-items: center; */
     flex-wrap: wrap;
 }
 
@@ -447,8 +377,6 @@
 
 .footer h5 {
     font-family: "oakes light";
-    /* margin: 20px; */
-    /* margin-left: 40px; */
 }
 
 .footer ul {
@@ -480,9 +408,6 @@
 .footer__final {
     color: white;
     background-color: #B1A5F1;
-    /* display: flex;
-    align-items: baseline;
-    flex-direction: row; */
 }
 
 .footer__final .footer__finalmediosdepago {
@@ -511,7 +436,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* margin-top: 100px; */
     background-color: #F4FAD3;
     color: #FF80BE;
     display: flex;
@@ -548,7 +472,6 @@
 
 .main__serviciosvalores ._1:hover {
     transform: scale(1.2);
-    /* Aumenta el tamaño del elemento al 120% */
 }
 
 .main__serviciosvalores ._2 {
@@ -557,22 +480,23 @@
 
 .main__serviciosvalores ._2:hover {
     transform: scale(1.2);
-    /* Aumenta el tamaño del elemento al 120% */
 }
 
 .main__servicios .main__serviciosvalores img {
     width: 600px;
     ;
 }
-
-.main__serviciosBanner {
+.main__servicios a{
     width: 100%;
+    img{
+        width: 100%;
+    }
 }
+
 
 /* reseñas */
 
 .main__reseñas {
-    /* margin-top: 100px; */
     background-color: #F4FAD3;
     margin-top: 130px;
 }
@@ -790,6 +714,19 @@ textarea::placeholder {
     align-items: center;
     background-color: #F4FAD3;
     margin-top: 130px;
+
+    .main__foto {
+        background-color: #BCFFBB;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__foto img {
+        width: 45%;
+        padding: 3%;
+    }
 }
 
 .main__nosotros .main__nosotros-titulo h1 {
