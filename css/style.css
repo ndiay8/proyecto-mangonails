@@ -181,6 +181,26 @@
   color: #FF80BE;
   font-size: 4rem; }
 
+@keyframes vibrar {
+  0% {
+    transform: translateX(0); }
+  20% {
+    transform: translateX(-5px) rotateZ(-5deg); }
+  40% {
+    transform: translateX(5px) rotateZ(5deg); }
+  60% {
+    transform: translateX(-5px) rotateZ(-5deg); }
+  80% {
+    transform: translateX(5px) rotateZ(5deg); }
+  100% {
+    transform: translateX(0); } }
+
+.main__presentacion1 {
+  transition: transform 0.1s ease; }
+
+.main__presentacion1:hover {
+  animation: vibrar 0.5s infinite; }
+
 .main__presentacion1 {
   font-family: "Recoleta bold";
   color: #231F3A;
@@ -429,6 +449,20 @@
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
+.main__serviciosvalores ._1 {
+  transition: transform 0.3s ease; }
+
+.main__serviciosvalores ._1:hover {
+  transform: scale(1.2);
+  /* Aumenta el tamaño del elemento al 120% */ }
+
+.main__serviciosvalores ._2 {
+  transition: transform 0.3s ease; }
+
+.main__serviciosvalores ._2:hover {
+  transform: scale(1.2);
+  /* Aumenta el tamaño del elemento al 120% */ }
+
 .main__servicios .main__serviciosvalores img {
   width: 600px; }
 
@@ -669,6 +703,26 @@ textarea::placeholder {
     .main__contacto .main__contacto-texto p {
       font-size: 1.2rem;
       text-align: left; }
+
+@keyframes vibrar {
+  0% {
+    transform: translateX(0); }
+  20% {
+    transform: translateX(-5px) rotateZ(-5deg); }
+  40% {
+    transform: translateX(5px) rotateZ(5deg); }
+  60% {
+    transform: translateX(-5px) rotateZ(-5deg); }
+  80% {
+    transform: translateX(5px) rotateZ(5deg); }
+  100% {
+    transform: translateX(0); } }
+
+.main__contacto-texto h1 {
+  transition: transform 0.1s ease; }
+
+.main__contacto-texto h1:hover {
+  animation: vibrar 0.5s infinite; }
 
 @media (max-width: 1345px) {
   /* index */
