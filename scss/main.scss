@@ -68,24 +68,46 @@
     height: 110px;
     /* margin: 5px; */
 }
+
 .logo-mobile img {
     display: none;
     height: 70px;
 }
+
 @keyframes vibrar {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(-5px) rotateZ(-5deg); }
-    40% { transform: translateX(5px) rotateZ(5deg); }
-    60% { transform: translateX(-5px) rotateZ(-5deg); }
-    80% { transform: translateX(5px) rotateZ(5deg); }
-    100% { transform: translateX(0); }
-  }
-.navbar-brand{
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    40% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    60% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    80% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.navbar-brand {
     transition: transform 0.1s ease;
 }
-.navbar-brand:active{
+
+.navbar-brand:active {
     animation: vibrar 1s ease;
 }
+
 .navbar-nav li :hover {
     color: #fde7f6 !important;
     font-family: "oakes bold";
@@ -179,21 +201,41 @@
     color: #FF80BE;
     font-size: 4rem;
 }
+
 @keyframes vibrar {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(-5px) rotateZ(-5deg); }
-    40% { transform: translateX(5px) rotateZ(5deg); }
-    60% { transform: translateX(-5px) rotateZ(-5deg); }
-    80% { transform: translateX(5px) rotateZ(5deg); }
-    100% { transform: translateX(0); }
-  }
-  .main__presentacion1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    40% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    60% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    80% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.main__presentacion1 {
     transition: transform 0.2s ease;
-  }
-  
-  .main__presentacion1:hover {
+}
+
+.main__presentacion1:hover {
     animation: vibrar 0.9s infinite;
-  }
+}
+
 .main__presentacion1 {
     font-family: "Recoleta bold";
     color: #231F3A;
@@ -221,6 +263,7 @@
     background-color: #BCFFBB;
     padding: 40px;
 }
+
 .main__sectioncolor {
     position: relative;
     display: inline-block;
@@ -236,7 +279,8 @@
     font-size: 5rem;
     font-family: "Recoleta bold";
 }
-.main__textocolor:hover{
+
+.main__textocolor:hover {
     color: #FF80BE;
     transition: color 1.5s;
 }
@@ -256,7 +300,8 @@
     font-size: 5rem;
     font-family: "Recoleta bold";
 }
-.main__textodiseño:hover{
+
+.main__textodiseño:hover {
     color: #FF80BE;
     transition: color 1.5s;
 }
@@ -276,7 +321,8 @@
     font-size: 4rem;
     font-family: "Recoleta bold";
 }
-.main__textocreatividad:hover{
+
+.main__textocreatividad:hover {
     color: #FF80BE;
     transition: color 1.5s;
 }
@@ -311,18 +357,38 @@
 .footer__logo2 {
     grid-area: footer__logo2;
 }
+
 @keyframes vibrar {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(-5px) rotateZ(-5deg); }
-    40% { transform: translateX(5px) rotateZ(5deg); }
-    60% { transform: translateX(-5px) rotateZ(-5deg); }
-    80% { transform: translateX(5px) rotateZ(5deg); }
-    100% { transform: translateX(0); }
-  }
-.footer__logo2{
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    40% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    60% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    80% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.footer__logo2 {
     transition: transform 0.1s ease;
 }
-.footer__logo2:active{
+
+.footer__logo2:active {
     animation: vibrar 1s ease;
 }
 
@@ -473,20 +539,27 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+
 }
-.main__serviciosvalores ._1{
+
+.main__serviciosvalores ._1 {
     transition: transform 0.3s ease;
 }
-  .main__serviciosvalores ._1:hover {
-    transform: scale(1.2); /* Aumenta el tamaño del elemento al 120% */
-  }
-  .main__serviciosvalores ._2{
+
+.main__serviciosvalores ._1:hover {
+    transform: scale(1.2);
+    /* Aumenta el tamaño del elemento al 120% */
+}
+
+.main__serviciosvalores ._2 {
     transition: transform 0.3s ease;
 }
-  .main__serviciosvalores ._2:hover {
-    transform: scale(1.2); /* Aumenta el tamaño del elemento al 120% */
-  }
+
+.main__serviciosvalores ._2:hover {
+    transform: scale(1.2);
+    /* Aumenta el tamaño del elemento al 120% */
+}
+
 .main__servicios .main__serviciosvalores img {
     width: 600px;
     ;
@@ -751,6 +824,7 @@ textarea::placeholder {
         font-size: 1.5rem;
     }
 }
+
 /* Contacto */
 .main__contacto {
     margin-top: 130px;
@@ -778,19 +852,38 @@ textarea::placeholder {
 }
 
 @keyframes vibrar {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(-5px) rotateZ(-5deg); }
-    40% { transform: translateX(5px) rotateZ(5deg); }
-    60% { transform: translateX(-5px) rotateZ(-5deg); }
-    80% { transform: translateX(5px) rotateZ(5deg); }
-    100% { transform: translateX(0); }
-  }
-  .main__contacto-texto h1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    40% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    60% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    80% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.main__contacto-texto h1 {
     transition: transform 0.1s ease;
-  }
-  .main__contacto-texto h1:hover {
+}
+
+.main__contacto-texto h1:hover {
     animation: vibrar 0.5s infinite;
-  }
+}
 
 
 @media (max-width: 1345px) {
@@ -918,21 +1011,26 @@ textarea::placeholder {
 @media (max-width: 991px) {
 
     /* index */
-.main{
-    margin-top: 46px;
-}
-.main__servicios{
-    margin-top: 46px;
-}
-.main__reseñas{
-    margin-top: 46px;
-}
-.main__nosotros{
-    margin-top: 46px;
-}
-.main__contacto{
-    margin-top: 46px;
-}
+    .main {
+        margin-top: 46px;
+    }
+
+    .main__servicios {
+        margin-top: 46px;
+    }
+
+    .main__reseñas {
+        margin-top: 46px;
+    }
+
+    .main__nosotros {
+        margin-top: 46px;
+    }
+
+    .main__contacto {
+        margin-top: 46px;
+    }
+
     .main .main__retrato {
         margin: 3%;
         height: 300px;
