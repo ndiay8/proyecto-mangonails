@@ -38,7 +38,6 @@
 
 .navbar-collapse ul {
     background-color: #B1A5F1;
-    /* border-radius: 50px; */
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     display: flex !important;
@@ -486,13 +485,14 @@
     width: 600px;
     ;
 }
-.main__servicios a{
+
+.main__servicios a {
     width: 100%;
-    img{
+
+    img {
         width: 100%;
     }
 }
-
 
 /* reseñas */
 
@@ -843,11 +843,6 @@ textarea::placeholder {
         justify-content: space-evenly;
     }
 
-    /* .main .main__retrato {
-    margin: 7%;
-    height: 430px;
-   
-} */
     .footer {
         background-color: #B1A5F1;
         color: white;
@@ -971,7 +966,6 @@ textarea::placeholder {
     .main .main__retrato {
         margin: 3%;
         height: 300px;
-        /* margin-left: 20px; */
     }
 
     .main__hola {
@@ -1036,9 +1030,7 @@ textarea::placeholder {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        /* Color del texto */
         padding: 10px 20px;
-        /* Espaciado interno del texto */
         font-size: 2rem;
         font-family: "Recoleta bold";
     }
@@ -1054,9 +1046,7 @@ textarea::placeholder {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        /* Color del texto */
         padding: 10px 20px;
-        /* Espaciado interno del texto */
         font-size: 2rem;
         font-family: "Recoleta bold";
     }
@@ -1073,9 +1063,7 @@ textarea::placeholder {
         transform: translate(-50%, -50%);
 
         color: white;
-        /* Color del texto */
         padding: 10px 20px;
-        /* Espaciado interno del texto */
         font-size: 2rem;
         font-family: "Recoleta bold";
     }
@@ -1227,17 +1215,6 @@ textarea::placeholder {
         align-items: center;
     }
 
-    /* .main__reseñas-titulo h1 {
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 0px;
-        margin-right: 0px;
-        text-align: center;
-        width: 250px;
-        justify-content: center;
-        background-color: #231F3A;
-        border-radius: 100px;
-    } */
     .main__reseñas h1 {
         font-size: 2rem;
     }
