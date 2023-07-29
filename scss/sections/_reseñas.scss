@@ -1,0 +1,317 @@
+/* reseñas */
+
+.main__reseñas {
+    background-color: #F4FAD3;
+    margin-top: 130px;
+}
+
+.main__reseñas-titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 100px; */
+    background-color: #F4FAD3;
+    color: #FF80BE;
+    display: flex;
+    align-items: center;
+}
+
+.main__reseñas .main__reseñas-titulo h1 {
+    font-size: 40px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 17px;
+    text-align: center;
+    width: 500px;
+    height: 60px;
+    justify-content: center;
+    background-color: #231F3A;
+    border-radius: 100px;
+    align-items: center;
+}
+
+.main__reseñas-formas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.main__reseñas-formas span {
+    margin-top: 10px;
+}
+
+.main__reseñas-formas img {
+    margin: 10px;
+    align-items: center;
+}
+
+
+.main__reseñas-formas .reseña {
+    font-family: "Recoleta bold";
+    font-size: xx-large;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(90, 85, 85, 0.5);
+}
+
+.main__forma-catalina {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.main__forma-catalina img {
+    width: 100%;
+}
+
+.main__reseñacatalina {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #231F3A;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "oakes light";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    width: 90%;
+
+    p {
+        color: white;
+        text-align: center;
+        background-color: #B1A5F1;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 7px;
+    }
+}
+
+.main__forma-ali {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.main__forma-ali img {
+    width: 100%;
+}
+
+.main__reseñaali {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #231F3A;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "oakes light";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    width: 90%;
+
+    p {
+        color: white;
+        text-align: center;
+        background-color: #FF80BE;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 7px;
+    }
+}
+
+.main__forma-emily {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.main__forma-emily img {
+    width: 100%;
+}
+
+.main__reseñaemily {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: #231F3A;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "oakes light";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    width: 90%;
+
+    p {
+        color: white;
+        text-align: center;
+        background-color: #8bdc8a;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 7px;
+    }
+}
+
+.formulario2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario2 input {
+    font-family: "Oakes light";
+    border: none;
+    border-radius: 3px;
+    background-color: #FF81BF;
+    color: #231F3A;
+    text-transform: none;
+    font-size: 16px;
+    margin: 10px;
+    text-align: left;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input,
+textarea {
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: #FF80BE;
+    padding: 15px 14px;
+    width: 40%;
+    border: none;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+.formulario2 .enviar {
+    color: white;
+    background-color: #B1A5F1;
+    width: auto;
+    text-align: center;
+}
+
+// Medias Queries
+
+@media (max-width: 991px) {
+    .main__reseñas {
+        margin-top: 46px;
+    }
+
+    .main__reseñas .main__reseñas-titulo h1 {
+        font-size: 2rem;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        text-align: center;
+        width: 250px;
+        justify-content: center;
+        background-color: #231F3A;
+        border-radius: 100px;
+        align-items: center;
+    }
+
+    .main__reseñas h1 {
+        font-size: 2rem;
+    }
+
+    .main__reseñas-formas .main__forma-catalina {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .main__reseñacatalina {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #231F3A;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-family: "oakes light";
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+
+        p {
+            padding: 5px;
+        }
+    }
+
+    .main__reseñas-formas .main__forma-ali {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .main__reseñaali {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #231F3A;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-family: "oakes light";
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+
+        p {
+            padding: 5px;
+        }
+    }
+
+    .main__reseñas-formas .main__forma-emily {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .main__reseñaemily {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #231F3A;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-family: "oakes light";
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+
+        p {
+            padding: 5px;
+        }
+    }
+}

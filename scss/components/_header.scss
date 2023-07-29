@@ -1,0 +1,110 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+.header nav {
+    background-color: #B1A5F1 !important;
+    height: 130px;
+    max-width: 100%;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.navbar-nav li a {
+    font-family: "oakes light";
+    color: #FBF6F0 !important;
+    margin: 10px;
+    background-color: #B1A5F1;
+}
+
+.navbar-collapse ul {
+    background-color: #B1A5F1;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-brand {
+    margin-right: 0px !important;
+
+}
+
+.header img {
+    height: 110px;
+}
+
+.logo-mobile img {
+    display: none;
+    height: 70px;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    40% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    60% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    80% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.navbar-brand {
+    transition: transform 0.1s ease;
+}
+
+.navbar-brand:active {
+    animation: vibrar 1s ease;
+}
+
+.navbar-nav li :hover {
+    color: #fde7f6 !important;
+    font-family: "oakes bold";
+}
+
+@media (max-width: 991px) {
+    .header nav {
+        background-color: #B1A5F1 !important;
+        height: 58px;
+        max-width: 100%;
+        box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .logo-mobile img {
+        margin-top: -4px;
+        display: block;
+        height: 50px;
+    }
+
+    .navbar-nav a {
+        order: 2;
+    }
+}

@@ -1,0 +1,306 @@
+.main {
+    background-color: #F4FAD3;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 130px;
+}
+
+.main .main__imghero {
+    width: 100%;
+}
+
+.main .main__retrato {
+    margin: 7%;
+    height: 550px;
+    margin-left: 20px;
+
+}
+
+.main p {
+    width: 400px;
+    font-family: "oakes light";
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.main__presentacion0 {
+    font-family: "Recoleta bold";
+    color: #FF80BE;
+    font-size: 4rem;
+}
+
+@keyframes vibrar {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    40% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    60% {
+        transform: translateX(-5px) rotateZ(-5deg);
+    }
+
+    80% {
+        transform: translateX(5px) rotateZ(5deg);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.main__presentacion1 {
+    transition: transform 0.2s ease;
+}
+
+.main__presentacion1:hover {
+    animation: vibrar 0.9s infinite;
+}
+
+.main__presentacion1 {
+    font-family: "Recoleta bold";
+    color: #231F3A;
+    font-size: 4rem;
+}
+
+.main__hola {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main__hola2 {
+    display: flex;
+    align-items: center;
+    margin-left: 144px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.main .main__imagenes3 {
+    background-color: #BCFFBB;
+    padding: 40px;
+}
+
+.main__sectioncolor {
+    position: relative;
+    display: inline-block;
+}
+
+.main__textocolor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 5rem;
+    font-family: "Recoleta bold";
+}
+
+.main__textocolor:hover {
+    color: #FF80BE;
+    transition: color 1.5s;
+}
+
+.main_sectiondiseño {
+    position: relative;
+    display: inline-block;
+}
+
+.main__textodiseño {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 5rem;
+    font-family: "Recoleta bold";
+}
+
+.main__textodiseño:hover {
+    color: #FF80BE;
+    transition: color 1.5s;
+}
+
+.main__sectioncreatividad {
+    position: relative;
+    display: inline-block;
+}
+
+.main__textocreatividad {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font-size: 4rem;
+    font-family: "Recoleta bold";
+}
+
+.main__textocreatividad:hover {
+    color: #FF80BE;
+    transition: color 1.5s;
+}
+
+.main__imagenes3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+// Media Queries
+
+@media (max-width: 1345px) {
+
+    /* index */
+    .main__hola2 {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .main__hola {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 991px) {
+        /* index */
+        .main {
+            margin-top: 46px;
+        }
+    
+        .main .main__retrato {
+            margin: 3%;
+            height: 300px;
+        }
+    
+        .main__hola {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    
+        .main__hola2 {
+            display: flex;
+            align-items: center;
+            margin-left: 0%;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    
+        .main__hola2 .main__presentacion0 {
+            font-size: 2rem;
+        }
+    
+        .main__presentacion1 {
+            font-family: "Recoleta bold";
+            color: #231F3A;
+            font-size: 2rem;
+        }
+    
+        .main p {
+            width: 300px;
+            font-family: "oakes light";
+            font-size: 15px;
+            text-align: center;
+        }
+    
+        .main__presentacion0 {
+            font-family: "Recoleta bold";
+            color: #FF80BE;
+            font-size: 1.2rem;
+        }
+    
+        .main .main__imagenes3 {
+            background-color: #BCFFBB;
+            padding: 0px;
+            width: 100%;
+        }
+    
+        .main__imagenes3 img {
+            width: 200px;
+            margin: 10px;
+        }
+    
+        .main__sectioncolor {
+            position: relative;
+            display: inline-block;
+        }
+    
+        .main__textocolor {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            padding: 10px 20px;
+            font-size: 2rem;
+            font-family: "Recoleta bold";
+        }
+    
+        .main_sectiondiseño {
+            position: relative;
+            display: inline-block;
+        }
+    
+        .main__textodiseño {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            padding: 10px 20px;
+            font-size: 2rem;
+            font-family: "Recoleta bold";
+        }
+    
+        .main__sectioncreatividad {
+            position: relative;
+            display: inline-block;
+        }
+    
+        .main__textocreatividad {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    
+            color: white;
+            padding: 10px 20px;
+            font-size: 2rem;
+            font-family: "Recoleta bold";
+        }
+    
+        .main__imagenes3 {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+}
